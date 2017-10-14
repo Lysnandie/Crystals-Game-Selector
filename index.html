@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>crystal game</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Ribeye+Marrow" rel="stylesheet">
+
+  </head>
+  <body>
+    <center>
+      <header id="header">Crystals Collector</header>
+    </center>
+
+    <section>
+      <center>
+      <h2> Instructions </h2>
+      </center>
+      <ul>
+
+      <li>You will be given a random number at the start of the game.</li>
+      <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+      <li>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</li>
+      <li>The value of each crytal is hidden from you until you click on it.</li>
+      <li>Each time when the game starts, the game will change the values of each crystal.</li>
+
+    </ul>
+    </section>
+
+    <aside>
+        <center>
+          <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+        </center>
+        <p>
+          <span id="tracker"></span>
+        </p>
+          <p>
+          wins: <span id="aWin"></span>
+          </p>
+          loss: <span id="aLoss"></span>
+    </aside>
+
+    <footer>
+    <center>
+
+
+      <div id="crystals">
+        <img src = "assets/images/bluestone.jpg" id = "gem1" />
+        <img src = "assets/images/diamond.jpg" id ="gem2"  />
+        <img src = "assets/images/pinkstone.jpg" id = "gem3"  />
+        <img src = "assets/images/yellowstone.jpg" id = "gem4"  />
+      </div>
+
+    </center>
+    </footer>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    <!--will need a div for the randomly generaged number (getdocumentbyID) or span? -->
+
+  </body>
+</html>

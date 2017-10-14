@@ -1,0 +1,60 @@
+#header {
+  font-family: 'Ribeye Marrow', cursive;
+  font-size: 56px;
+  color: pink;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 5px;
+}
+
+section {
+  background-color: white;
+  color: black;
+  width: 490px;
+  height: 220px;
+  float: left;
+  padding-top: 30px;
+
+}
+
+aside {
+  background-color: white;
+  color: pink;
+  margin-left: 5px;
+  width: 460px;
+  height: 220px;
+  float: right;
+  padding-top: 30px;
+
+
+}
+
+body {
+  background-color: black;
+}
+
+#crystals img {
+  height: 100px;
+  width: 100px;
+}
+
+#tracker {
+  font-size: 50px;
+}
+.wrapper{
+  width: 960px;
+  margin: auto;
+}
+
+.clear{
+  clear:both;
+}
+
+footer {
+  clear:both;
+  overflow: auto;
+  background-color: black;
+  color: pink;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 5px
+}
