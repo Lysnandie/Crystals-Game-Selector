@@ -35,6 +35,7 @@ console.log(gem4);
 function reset (){
   targetNumber = Math.floor((Math.random() * 102) + 19);
   $("#number-to-guess").text(targetNumber);
+  $("#tracker").text("0");
   gem1 = Math.floor((Math.random() * 12) + 1);
   gem2 = Math.floor((Math.random() * 12) + 1);
   gem3 = Math.floor((Math.random() * 12) + 1);
@@ -47,12 +48,14 @@ function reset (){
 // how to get tally marks for the game to track wins and losses...grab element and text?
 function win () {
   wins++;
+  $("#scores").text("You win!");
   $("#aWin").text(wins);
   reset();
 }
 
 function loss() {
   losses++;
+  $("#scores").text("You lose!");
   $("#aLoss").text(losses);
   reset();
 
