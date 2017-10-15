@@ -48,14 +48,14 @@ function reset (){
 // how to get tally marks for the game to track wins and losses...grab element and text?
 function win () {
   wins++;
-  $("#scores").text("You win!");
-  $("#aWin").text(wins);
+  alert ("You win!");
+  $("#aWin").text(wins)
   reset();
 }
 
 function loss() {
   losses++;
-  $("#scores").text("You lose!");
+  alert ("You lost!");
   $("#aLoss").text(losses);
   reset();
 
